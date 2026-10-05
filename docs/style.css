@@ -11,3 +11,26 @@ a{color:var(--blue);font-weight:600}.inks{display:flex;gap:14px;margin:18px 0}.i
 ul{padding-left:1.1em}li{margin:.35em 0}.card{background:rgba(255,255,255,.55);border:1px solid rgba(127,127,127,.2);border-radius:18px;padding:18px 20px}
 @media (prefers-color-scheme:dark){.card{background:rgba(255,255,255,.04)}}
 footer{margin-top:56px}.legend a{color:inherit}
+
+/* guides */
+.guide .icon{width:72px;height:72px;border-radius:17px}
+.crumbs{margin:18px 0 0}
+.crumbs a{color:inherit}
+.guide h1{font-size:clamp(26px,6.4vw,42px);margin:.3em 0 .45em}
+.guide h2{font-size:20px}
+.lead{font-size:19px;line-height:1.55}
+.g-cta{display:inline-block;background:var(--pink);color:#14171F;font-weight:800;text-decoration:none;padding:12px 22px;border-radius:999px}
+.g-cta-row{margin:16px 0}
+article{overflow-wrap:break-word}
+.g-end{background:rgba(255,255,255,.55);border:1px solid rgba(127,127,127,.2);border-radius:18px;padding:6px 22px 10px;margin-top:44px}
+@media (prefers-color-scheme:dark){.g-end{background:rgba(255,255,255,.04)}}
+.g-end h2{margin-top:16px}
+.g-list,.g-related ul{list-style:none;padding:0}
+.g-list li,.g-related li{padding:12px 0;border-bottom:1px solid rgba(127,127,127,.25)}
+.g-list a,.g-related li a{display:block}
+.g-list span,.g-related li span{display:block;color:var(--muted);font-size:15px}
+ol.steps li,ul.tips li{margin:.5em 0}
+ol.steps{padding-left:1.4em}
+article table{border-collapse:collapse;width:100%;font-size:15px;margin:14px 0}
+article th,article td{border-bottom:1px solid rgba(127,127,127,.25);padding:8px 10px 8px 0;text-align:left;vertical-align:top}
+.g-table{overflow-x:auto}
